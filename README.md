@@ -7,11 +7,11 @@ Steps for execution:
 2. Perfromed EDA for the different features to check how they ar correlated.
 3. Imputed the missing values and dropped features for the missing values which can't be imputed, because a major chunk of missing values were missing from the feature.
 4. Performed One Hot Encoding for the categorical features, while keeping in mind the curse of dimensionality.
-5. Dropped the irrelevent features which won't be used anymore.
+5. Seleted the relevent features to be used while modelling using the SelectKBest (Chi-Square method).
 6. Perfromed Feature Scaling using MinMaxScaler.
 7. Perfromed a train_train_split for the data to split it into 75% training and 25% testing data. 
-8. Created a Machine Learning Model using RandomForestRegressor Algorithm using n_estimators=600.
-9. Trained a model and made predictions the accuracy was noted to be 78.56%.
+8. Created a Machine Learning Model using RandomForestRegressor Algorithm using n_estimators=700.
+9. Trained a model and made predictions the accuracy was noted to be 71.53%.
 10. Plotted a scatter plot for y_test and predictions they follow an increasing linear relationship.
 11. Plotted a residual as well using distplot b calculating y_test-predictions.
 
