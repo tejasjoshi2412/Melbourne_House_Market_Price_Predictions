@@ -6,7 +6,7 @@ Steps for execution:
 1. Extracted the Data
 2. Perfromed EDA for the different features to check how they ar correlated.
 3. Imputed the missing values and dropped features for the missing values which can't be imputed, because a major chunk of missing values were missing from the feature.
-4. Performed One Hot Encoding for the categorical features, while keeping in mind the curse of dimensionality.
+4. Encodied the categorical features, while keeping in mind the curse of dimensionality.
 5. Seleted the relevent features to be used while modelling using the SelectKBest (Chi-Square method).
 6. Perfromed Feature Scaling using MinMaxScaler.
 7. Perfromed a train_train_split for the data to split it into 75% training and 25% testing data. 
