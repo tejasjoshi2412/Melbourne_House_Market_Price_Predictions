@@ -2,20 +2,6 @@
 
 The Dataset has been extracted from Kaggle to predict the house prices in the city of Melbourne,Australia.
 
-Steps for execution:
-1. Extracted the Data
-2. Perfromed EDA for the different features to check how they ar correlated.
-3. Imputed the missing values and dropped features for the missing values which can't be imputed, because a major chunk of missing values were missing from the feature.
-4. Encodied the categorical features, while keeping in mind the curse of dimensionality.
-5. Seleted the relevent features to be used while modelling using the SelectKBest (Chi-Square method).
-6. Perfromed Feature Scaling using MinMaxScaler.
-7. Perfromed a train_train_split for the data to split it into 75% training and 25% testing data. 
-8. Created a Machine Learning Model using RandomForestRegressor Algorithm using n_estimators=700.
-9. Trained a model and made predictions the accuracy was noted to be 71.53%.
-10. Plotted a scatter plot for y_test and predictions they follow an increasing linear relationship.
-11. Plotted a residual as well using distplot b calculating y_test-predictions.
-
-
 Following are the featurs used:
 
 This data was scraped from publicly available results posted every week from Domain.com.au, I've cleaned it as best I can, now it's up to you to make data analysis magic. The dataset includes Address, Type of Real estate, Suburb, Method of Selling, Rooms, Price, Real Estate Agent, Date of Sale and distance from C.B.D.
@@ -79,3 +65,20 @@ CouncilArea: Governing council for the area
 Lattitude: Self explanitory
 
 Longtitude: Self explanitory
+
+
+**Steps for execution:
+
+1. Extracted the Data
+2. Perfromed EDA for the different features to check how they ar correlated.
+3. Imputed the missing values and dropped features for the missing values which can't be imputed, because a major chunk of missing values were missing from the feature.
+4. Encodied the categorical features, while keeping in mind the curse of dimensionality.
+5. Seleted the relevent features to be used while modelling using the SelectKBest (Chi-Square method).
+6. Perfromed Feature Scaling using MinMaxScaler.
+7. Perfromed a train_train_split for the data to split it into 75% training and 25% testing data. 
+8. Created a Machine Learning Model using RandomForestRegressor Algorithm using n_estimators=700.
+9. Trained a model and made predictions.
+10. Plotted a scatter plot for y_test and predictions they follow an increasing linear relationship.
+11. Plotted a residual as well using distplot by calculating y_test-predictions.
+
+
